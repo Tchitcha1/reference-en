@@ -111,11 +111,12 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(ledPin, state);
+  
 }
 
 void blink() {
   state = !state;
+  digitalWrite(ledPin, state);
 }
 ----
 
